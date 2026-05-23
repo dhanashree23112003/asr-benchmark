@@ -1,0 +1,166 @@
+{
+  "version": "1.1",
+  "normalization_notes": "All transcripts in Devanagari script (Hindi). English loanwords (BTM, HSR, Electronic City, Silk Board, Whitefield, KR) kept in Roman as spoken. Lowercase after normalization, no punctuation.",
+  "samples": {
+    "koramangala_quiet_01": {
+      "locality": "koramangala",
+      "condition": "quiet",
+      "take": "01",
+      "transcript": "हाँ मैं कोरमंगला में रहता हूँ",
+      "language": "hindi",
+      "notes": ""
+    },
+    "hsr-layout_phone_01": {
+      "locality": "hsr-layout",
+      "condition": "phone",
+      "take": "01",
+      "transcript": "भाई HSR लेआउट में आ जाओ",
+      "language": "hindi",
+      "notes": ""
+    },
+    "banashankari_noisy_01": {
+      "locality": "banashankari",
+      "condition": "noisy",
+      "take": "01",
+      "transcript": "मैं बनशंकरी में रहता हूँ",
+      "language": "hindi",
+      "notes": ""
+    },
+    "bellandur_noisy_01": {
+      "locality": "bellandur",
+      "condition": "noisy",
+      "take": "01",
+      "transcript": "बेलंदूर में फ्लैट लेना है",
+      "language": "hindi",
+      "notes": ""
+    },
+    "bommanahalli_whispered_01": {
+      "locality": "bommanahalli",
+      "condition": "whispered",
+      "take": "01",
+      "transcript": "बोम्मनहल्ली में हूँ मैं",
+      "language": "hindi",
+      "notes": ""
+    },
+    "btm-layout_phone_01": {
+      "locality": "btm-layout",
+      "condition": "phone",
+      "take": "01",
+      "transcript": "BTM लेआउट से कॉल कर रहा हूँ",
+      "language": "hindi",
+      "notes": ""
+    },
+    "electronic-city_noisy_01": {
+      "locality": "electronic-city",
+      "condition": "noisy",
+      "take": "01",
+      "transcript": "Electronic City में जॉब मिल सकती है क्या",
+      "language": "hindi",
+      "notes": ""
+    },
+    "hebbal_quiet_01": {
+      "locality": "hebbal",
+      "condition": "quiet",
+      "take": "01",
+      "transcript": "हेब्बल के पास कोई जॉब है क्या",
+      "language": "hindi",
+      "notes": ""
+    },
+    "indiranagar_quiet_01": {
+      "locality": "indiranagar",
+      "condition": "quiet",
+      "take": "01",
+      "transcript": "मेरा घर इंदिरानगर में है",
+      "language": "hindi",
+      "notes": ""
+    },
+    "jayanagar_quiet_01": {
+      "locality": "jayanagar",
+      "condition": "quiet",
+      "take": "01",
+      "transcript": "जयनगर में एक रूम ढूंढ रहा हूँ",
+      "language": "hindi",
+      "notes": ""
+    },
+    "kr-puram_phone_01": {
+      "locality": "kr-puram",
+      "condition": "phone",
+      "take": "01",
+      "transcript": "KR पुरम में हूँ मैं",
+      "language": "hindi",
+      "notes": ""
+    },
+    "majestic_whispered_01": {
+      "locality": "majestic",
+      "condition": "whispered",
+      "take": "01",
+      "transcript": "मैजेस्टिक बस स्टैंड के पास रहता हूँ",
+      "language": "hindi",
+      "notes": ""
+    },
+    "marathahalli_noisy_01": {
+      "locality": "marathahalli",
+      "condition": "noisy",
+      "take": "01",
+      "transcript": "भाई मराठाहल्ली में रहता हूँ मैं",
+      "language": "hindi",
+      "notes": ""
+    },
+    "peenya_whispered_01": {
+      "locality": "peenya",
+      "condition": "whispered",
+      "take": "01",
+      "transcript": "पीन्या में रहता हूँ",
+      "language": "hindi",
+      "notes": ""
+    },
+    "rajajinagar_phone_01": {
+      "locality": "rajajinagar",
+      "condition": "phone",
+      "take": "01",
+      "transcript": "राजाजीनगर में काम ढूंढ रहा हूँ",
+      "language": "hindi",
+      "notes": ""
+    },
+    "sarjapur_whispered_01": {
+      "locality": "sarjapur",
+      "condition": "whispered",
+      "take": "01",
+      "transcript": "सरजापुर रोड के पास हूँ",
+      "language": "hindi",
+      "notes": ""
+    },
+    "silk-board_noisy_01": {
+      "locality": "silk-board",
+      "condition": "noisy",
+      "take": "01",
+      "transcript": "Silk Board के पास हूँ अभी",
+      "language": "hindi",
+      "notes": ""
+    },
+    "whitefield_quiet_01": {
+      "locality": "whitefield",
+      "condition": "quiet",
+      "take": "01",
+      "transcript": "मैं Whitefield से हूँ",
+      "language": "hindi",
+      "notes": ""
+    },
+    "yelahanka_phone_01": {
+      "locality": "yelahanka",
+      "condition": "phone",
+      "take": "01",
+      "transcript": "येलहंका एरिया में कोई वेकेंसी है",
+      "language": "hindi",
+      "notes": ""
+    },
+    "yeshwantpur_whispered_01": {
+      "locality": "yeshwantpur",
+      "condition": "whispered",
+      "take": "01",
+      "transcript": "यशवंतपुर स्टेशन के पास",
+      "language": "hindi",
+      "notes": ""
+    }
+  }
+}

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+
+# Environment / secrets
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# HuggingFace / model caches
+.cache/
+*.bin
+*.safetensors
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
