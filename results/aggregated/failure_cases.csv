@@ -1,0 +1,24 @@
+filename,locality,condition,take,model,ground_truth,transcript,transcript_normalized,wer,cer,entity_hit,fuzzy_score,latency_ms,error,wer_rank
+bommanahalli_whispered_01.wav,bommanahalli,whispered,1,whisper,बोम्मनहल्ली में हूँ मैं,को मन हल्ली में हो मैं आर हूँ,को मन हल्ली में हो मैं आर हूँ,1.5,0.5652,0,72.72727272727273,849.2351,,1
+peenya_whispered_01.wav,peenya,whispered,1,deepgram,पीन्या में रहता हूँ,में run की हूं मैं.,में run की हूं मैं,1.25,0.8421,0,16.666666666666664,407.9075,,2
+kr-puram_phone_01.wav,kr-puram,phone,1,deepgram,KR पुरम में हूँ मैं,Care में काम ढूंढ रहा हूं.,care में काम ढूंढ रहा हूं,1.2,0.8947,0,33.333333333333336,525.0709,,3
+marathahalli_noisy_01.wav,marathahalli,noisy,1,deepgram,भाई मराठाहल्ली में रहता हूँ मैं,भाई मरा थाली में रहो चौक से आए.,भाई मरा थाली में रहो चौक से आए,1.0,0.4839,0,60.0,296.1683,,4
+peenya_whispered_01.wav,peenya,whispered,1,whisper,पीन्या में रहता हूँ,मिया मेरा इंतिमून है,मिया मेरा इंतिमून है,1.0,0.7368,0,40.0,1067.7546,,5
+yelahanka_phone_01.wav,yelahanka,phone,1,deepgram,येलहंका एरिया में कोई वेकेंसी है,Uncle area मे कोई batence नहीं है क्या?,uncle area मे कोई batence नहीं है क्या,1.0,0.9062,0,42.85714285714286,656.7648,,6
+bommanahalli_whispered_01.wav,bommanahalli,whispered,1,deepgram,बोम्मनहल्ली में हूँ मैं,कोमल हिंदी में हूं मैं यार.,कोमल हिंदी में हूं मैं यार,1.0,0.5217,0,40.0,528.436,,7
+marathahalli_noisy_01.wav,marathahalli,noisy,1,ai4bharat,भाई मराठाहल्ली में रहता हूँ मैं,ई मारा हाली मेरा चस मह,ई मारा हाली मेरा चस मह,1.0,0.5161,0,60.0,22.7107,,8
+bommanahalli_whispered_01.wav,bommanahalli,whispered,1,ai4bharat,बोम्मनहल्ली में हूँ मैं,उमन हम्ने में हू मयार,उमन हम्ने में हू मयार,1.0,0.5217,0,44.44444444444444,33.4566,,9
+bellandur_noisy_01.wav,bellandur,noisy,1,deepgram,बेलंदूर में फ्लैट लेना है,मुझे बेलन दूर में flat लेना है.,मुझे बेलन दूर में flat लेना है,0.8,0.48,0,71.42857142857143,643.4156,,10
+peenya_whispered_01.wav,peenya,whispered,1,ai4bharat,पीन्या में रहता हूँ,टेमिया में रहती हूँ मैं,टेमिया में रहती हूँ मैं,0.75,0.4737,0,33.333333333333336,19.5088,,11
+majestic_whispered_01.wav,majestic,whispered,1,ai4bharat,मैजेस्टिक बस स्टैंड के पास रहता हूँ,ाटिस्टिक बरस्टान के पास पहता हू,ाटिस्टिक बरस्टान के पास पहता हू,0.7143,0.3143,0,58.82352941176471,23.051,,12
+yelahanka_phone_01.wav,yelahanka,phone,1,whisper,येलहंका एरिया में कोई वेकेंसी है,अनुका एरिया में कोई बैकेंस नहीं है क्या?,अनुका एरिया में कोई बैकेंस नहीं है क्या,0.6667,0.5,0,42.85714285714286,1067.9146,,13
+yelahanka_phone_01.wav,yelahanka,phone,1,ai4bharat,येलहंका एरिया में कोई वेकेंसी है,उनका एरिया में तो ातंसी है क्या,उनका एरिया में तो ातंसी है क्या,0.6667,0.5,0,44.44444444444444,21.0193,,14
+majestic_whispered_01.wav,majestic,whispered,1,deepgram,मैजेस्टिक बस स्टैंड के पास रहता हूँ,Logistic bus stand के पास रहता हूं.,logistic bus stand के पास रहता हूं,0.5714,0.5429,0,50.0,339.1656,,15
+majestic_whispered_01.wav,majestic,whispered,1,whisper,मैजेस्टिक बस स्टैंड के पास रहता हूँ,मैं जी स्टिक बस्टांड के पास रहता हूँ,मैं जी स्टिक बस्टांड के पास रहता हूँ,0.5714,0.2,0,66.66666666666667,1186.751,,16
+whitefield_quiet_01.wav,whitefield,quiet,1,ai4bharat,मैं Whitefield से हूँ,मैं वाइट फील्स हूँ,मैं वाइट फील्स हूँ,0.5,0.5714,0,72.72727272727273,16.7791,,17
+marathahalli_noisy_01.wav,marathahalli,noisy,1,whisper,भाई मराठाहल्ली में रहता हूँ मैं,मैं मारा धाली में रहता हूँ मैं,मैं मारा धाली में रहता हूँ मैं,0.5,0.2581,0,60.0,1046.8589,,18
+whitefield_quiet_01.wav,whitefield,quiet,1,whisper,मैं Whitefield से हूँ,मैं वाइट फिल्ड से हूँ,मैं वाइट फिल्ड से हूँ,0.5,0.4762,0,72.72727272727273,859.3276,,19
+bellandur_noisy_01.wav,bellandur,noisy,1,ai4bharat,बेलंदूर में फ्लैट लेना है,मुझे बैलनदूर में फ्लैट लेना है,मुझे बैलनदूर में फ्लैट लेना है,0.4,0.28,0,71.42857142857143,36.7707,,20
+hebbal_quiet_01.wav,hebbal,quiet,1,deepgram,हेब्बल के पास कोई जॉब है क्या,हैबल के पास कोई job है क्या?,हैबल के पास कोई job है क्या,0.2857,0.2069,0,60.0,560.0679,,21
+btm-layout_phone_01.wav,btm-layout,phone,1,whisper,BTM लेआउट से कॉल कर रहा हूँ,बेम्टी लेयाउट से कॉल कर रहा हूँ,बेम्टी लेयाउट से कॉल कर रहा हूँ,0.2857,0.2963,0,58.33333333333333,1013.3538,,22
+yeshwantpur_whispered_01.wav,yeshwantpur,whispered,1,whisper,यशवंतपुर स्टेशन के पास,यश्वन्तपूर स्टेशन के पास,यश्वन्तपूर स्टेशन के पास,0.25,0.1818,0,62.5,931.856,,23

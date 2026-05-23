@@ -1,0 +1,13 @@
+model,condition,n_samples,mean_wer,entity_accuracy,mean_latency_ms
+ai4bharat,noisy,5,0.6417,0.6,84.9
+ai4bharat,phone,5,0.7305,0.8,27.4
+ai4bharat,quiet,5,0.4391,0.8,25.0
+ai4bharat,whispered,5,0.6129,0.4,24.4
+deepgram,noisy,5,0.6517,0.6,672.7
+deepgram,phone,5,0.8876,0.6,512.7
+deepgram,quiet,5,0.4509,0.8,449.3
+deepgram,whispered,5,0.7343,0.4,461.6
+whisper,noisy,5,0.5333,0.8,1254.7
+whisper,phone,5,0.6905,0.6,1054.6
+whisper,quiet,5,0.3372,0.8,955.0
+whisper,whispered,5,0.7443,0.2,994.2
