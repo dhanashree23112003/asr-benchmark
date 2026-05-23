@@ -1,5 +1,10 @@
 # ASR Shootout — Bangalore Locality Name Benchmark
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
+![Colab](https://img.shields.io/badge/Runs%20on-Colab%20T4-F9AB00?logo=googlecolab&logoColor=white)
+![Models](https://img.shields.io/badge/Models-3-brightgreen)
+![Samples](https://img.shields.io/badge/Audio%20Samples-20-orange)
+
 Benchmarks three ASR systems on their ability to correctly transcribe Bangalore locality names from natural Hindi/Hinglish conversational speech. Built as an intern assessment for a voice-based blue-collar hiring platform.
 
 **Models evaluated:**
@@ -18,6 +23,27 @@ Benchmarks three ASR systems on their ability to correctly transcribe Bangalore 
 | Deepgram nova-2 | 0.681 | 60% | 524ms |
 
 Full findings in [`report/benchmark_report.md`](report/benchmark_report.md).
+
+<details>
+<summary><strong>Results by condition</strong></summary>
+
+**WER by condition**
+
+| Model | quiet | noisy | phone | whispered |
+|---|---|---|---|---|
+| Whisper | **0.337** | **0.533** | **0.691** | 0.744 |
+| AI4Bharat | 0.439 | 0.642 | 0.731 | **0.613** |
+| Deepgram | 0.451 | 0.652 | 0.888 | 0.734 |
+
+**Entity accuracy by condition**
+
+| Model | quiet | noisy | phone | whispered |
+|---|---|---|---|---|
+| AI4Bharat | **0.8** | 0.6 | **0.8** | 0.4 |
+| Deepgram | **0.8** | 0.6 | 0.6 | 0.4 |
+| Whisper | **0.8** | **0.8** | 0.6 | 0.2 |
+
+</details>
 
 ---
 
@@ -55,7 +81,7 @@ asr-benchmark/
 
 ## Quickstart (Colab)
 
-**Runtime:** GPU → T4 required for Whisper and AI4Bharat.
+> **Runtime:** GPU → T4 required for Whisper and AI4Bharat.
 
 **1. Upload this folder to Google Drive** (anywhere inside `MyDrive/`).
 
@@ -98,9 +124,11 @@ Whisper and AI4Bharat require a CUDA GPU. Skip them with `--models deepgram` if 
 {locality}_{condition}_{take}.wav
 ```
 
-- `locality`: lowercase, hyphens for spaces — e.g. `hsr-layout`, `koramangala`
-- `condition`: one of `quiet` / `noisy` / `phone` / `whispered`
-- `take`: zero-padded integer — `01`, `02`
+| Part | Values | Example |
+|---|---|---|
+| `locality` | lowercase, hyphens for spaces | `hsr-layout`, `koramangala` |
+| `condition` | `quiet` / `noisy` / `phone` / `whispered` | `phone` |
+| `take` | zero-padded integer | `01`, `02` |
 
 Examples: `koramangala_quiet_01.wav`, `hsr-layout_phone_01.wav`
 
